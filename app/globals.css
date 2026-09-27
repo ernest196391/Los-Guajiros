@@ -110,7 +110,6 @@ button,input,select,textarea,.eyebrow,.tag,.copy strong,.heroCta,.checkoutPrimar
 @media(max-width:600px){.clearSearch{flex-basis:38px;width:38px;height:38px}}
 .shopHeader .search{position:relative;z-index:35;overflow:visible}
 .searchSuggestPanel{position:absolute;top:calc(100% + 8px);left:0;right:0;max-height:min(480px,65vh);overflow:auto;background:#fffdf8;border:1px solid #dfd5c3;border-radius:18px;box-shadow:0 20px 55px #173d2a2e;padding:8px;z-index:40}
-.searchSuggestLabel{display:block;padding:7px 10px 5px;color:#8b6b4a;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
 .searchSuggestPanel ul{list-style:none;margin:0;padding:0;display:grid;gap:3px}
 .searchSuggestPanel li{min-width:0}
 .searchSuggestPanel li button{width:100%;min-height:72px;display:grid;grid-template-columns:58px minmax(0,1fr) auto;align-items:center;gap:12px;padding:7px 10px;border:0;border-radius:12px;background:transparent;color:var(--ink);text-align:left}
