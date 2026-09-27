@@ -18,3 +18,11 @@ test("multiword search checks product fields",()=>{
 test("empty search still respects selected category",()=>{
   assert.ok(searchProducts(products,"","Comida casera").every(product=>product.c==="Comida casera"));
 });
+
+test("search suggests products despite a typing mistake",()=>{
+  assert.equal(searchProducts(products,"guayva")[0].n,"Jugo de guayaba");
+});
+
+test("exact product name ranks before description matches",()=>{
+  assert.equal(searchProducts(products,"ensalada")[0].n,"Ensalada fría");
+});

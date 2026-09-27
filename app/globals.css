@@ -108,3 +108,13 @@ button,input,select,textarea,.eyebrow,.tag,.copy strong,.heroCta,.checkoutPrimar
 .clearSearch{flex:0 0 40px;width:40px;height:40px;border:0;border-radius:50%;background:transparent;color:var(--deep);font-size:24px;line-height:1}
 .clearSearch:hover{background:#e9f0df}.clearSearch:focus-visible{outline-offset:0}
 @media(max-width:600px){.clearSearch{flex-basis:38px;width:38px;height:38px}}
+.shopHeader .search{position:relative;z-index:35;overflow:visible}
+.searchSuggestPanel{position:absolute;top:calc(100% + 8px);left:0;right:0;max-height:min(480px,65vh);overflow:auto;background:#fffdf8;border:1px solid #dfd5c3;border-radius:18px;box-shadow:0 20px 55px #173d2a2e;padding:8px;z-index:40}
+.searchSuggestLabel{display:block;padding:7px 10px 5px;color:#8b6b4a;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.searchSuggestPanel ul{list-style:none;margin:0;padding:0;display:grid;gap:3px}
+.searchSuggestPanel li{min-width:0}
+.searchSuggestPanel li button{width:100%;min-height:72px;display:grid;grid-template-columns:58px minmax(0,1fr) auto;align-items:center;gap:12px;padding:7px 10px;border:0;border-radius:12px;background:transparent;color:var(--ink);text-align:left}
+.searchSuggestPanel li button:hover,.searchSuggestPanel li button[aria-selected="true"]{background:#eef3e8}
+.searchSuggestPanel img{width:58px;height:58px;border-radius:10px;object-fit:cover;background:#fff6e4}
+.searchSuggestPanel span span{min-width:0}.searchSuggestPanel b{display:block;font-family:var(--font-display),var(--font-display-fallback);font-size:15px;line-height:1.2}.searchSuggestPanel small{display:block;margin-top:4px;color:#716c63;font-size:11px;line-height:1.25}.searchSuggestPanel strong{font-size:14px;color:var(--deep);white-space:nowrap;font-variant-numeric:tabular-nums}.searchSuggestPanel p{margin:0;padding:18px;color:#716c63;font-size:14px;text-align:center}
+@media(max-width:600px){.searchSuggestPanel{top:calc(100% + 6px);left:-1px;right:-1px;max-height:min(430px,62vh);border-radius:14px;padding:6px}.searchSuggestPanel li button{grid-template-columns:52px minmax(0,1fr) auto;gap:9px;min-height:66px;padding:6px}.searchSuggestPanel img{width:52px;height:52px}.searchSuggestPanel b{font-size:14px}.searchSuggestPanel strong{font-size:12px}}
