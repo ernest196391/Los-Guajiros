@@ -13,6 +13,6 @@ test("known fee is included in total",()=>{const t=orderMessage({...order,mode:"
 
 import {readFileSync} from "node:fs";
 const tenant=JSON.parse(readFileSync(new URL("../config/tenant.json",import.meta.url),"utf8"));
-test("authorized WhatsApp destination",()=>assert.ok(whatsappUrl(tenant.whatsapp,"pedido").startsWith("https://wa.me/5354056173?")));
+test("authorized WhatsApp destination",()=>assert.ok(whatsappUrl(tenant.whatsapp,"pedido").startsWith("https://wa.me/5356443692?")));
 test("NEXO approved shipping snapshot applied",()=>{assert.equal(shipping("delivery","Plaza de la Revolución","Nuevo Vedado",tenant.shippingRates),1000);assert.equal(shipping("delivery","Habana del Este","Guanabo",tenant.shippingRates),6000);assert.equal(shipping("pickup","","",tenant.shippingRates),0)});
 test("all activated rates are valid",()=>{assert.ok(Object.keys(tenant.shippingRates).length>200);for(const n of Object.values(tenant.shippingRates))assert.ok(Number.isFinite(n)&&n>=0)});
