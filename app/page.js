@@ -2,7 +2,7 @@
 import {useMemo,useState,useEffect} from "react";
 import Image from "next/image";
 import {products} from "../lib/catalog";
-import heroFacade from "../public/brand/fachada-hero.webp";
+import heroFacade from "../public/brand/fachada-hero-dia.webp";
 import {tenant,storeKey} from "../lib/tenant";
 import {whatsappUrl} from "../lib/commerce.mjs";
 
