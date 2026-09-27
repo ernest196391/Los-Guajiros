@@ -103,3 +103,8 @@ h1,h2,h3,.name,.detail h2,.drawerHead h2,.checkoutPage h1,.empty b{font-family:v
 .name{letter-spacing:-.012em;line-height:1.22}
 button,input,select,textarea,.eyebrow,.tag,.copy strong,.heroCta,.checkoutPrimary{font-family:var(--font-body),var(--font-body-fallback)}
 .eyebrow,.tag{font-weight:800}.copy strong{font-weight:800;letter-spacing:-.015em}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.search input[type="search"]::-webkit-search-cancel-button{display:none}
+.clearSearch{flex:0 0 40px;width:40px;height:40px;border:0;border-radius:50%;background:transparent;color:var(--deep);font-size:24px;line-height:1}
+.clearSearch:hover{background:#e9f0df}.clearSearch:focus-visible{outline-offset:0}
+@media(max-width:600px){.clearSearch{flex-basis:38px;width:38px;height:38px}}
