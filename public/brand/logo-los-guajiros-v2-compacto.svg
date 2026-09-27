@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Los Guajiros</title><desc id="desc">Versión compacta del logotipo Los Guajiros</desc>
+  <g transform="translate(62 38) scale(.52)" stroke="#073b2b" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#f2cf7d" stroke-width="22" d="M90 280c65-78 165-105 275-76 77 20 128 62 220 58 101-5 143-73 246-71 72 2 124 37 154 92-126-22-212 18-310 48-168 51-343 15-585-51Z"/>
+    <path fill="#f2cf7d" stroke-width="22" d="M345 213c10-119 59-185 142-185 80 0 131 64 152 189-94 58-199 56-294-4Z"/>
+    <path fill="none" stroke-width="24" d="M365 126c80 45 162 55 243 31M389 80c63 36 128 49 196 36M408 175c72 36 146 42 219 18"/>
+    <path fill="none" stroke="#c94d3f" stroke-width="32" d="M354 202c89 59 189 61 282 5"/>
+  </g>
+  <text x="320" y="390" text-anchor="middle" fill="#073b2b" font-family="URW Bookman, DejaVu Serif, serif" font-size="93" font-weight="700" letter-spacing="-4">LOS</text>
+  <text x="320" y="492" text-anchor="middle" fill="#073b2b" font-family="URW Bookman, DejaVu Serif, serif" font-size="93" font-weight="700" letter-spacing="-4">GUAJIROS</text>
+  <path d="M108 528c138 18 278 18 424 0" fill="none" stroke="#c94d3f" stroke-width="15" stroke-linecap="round"/>
+</svg>
